@@ -1,10 +1,11 @@
-syntax on
+execute pathogen#infect()
 
 " -------------------------------------------------
 " General
 " -------------------------------------------------
 
 set number " line numbers
+syntax on
 
 " -------------------------------------------------
 " searching and patters
