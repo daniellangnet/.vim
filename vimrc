@@ -6,6 +6,8 @@ execute pathogen#infect()
 
 set number " line numbers
 syntax on
+set background=dark
+colorscheme solarized
 
 " -------------------------------------------------
 " searching and patters
