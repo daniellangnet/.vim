@@ -47,14 +47,17 @@ set expandtab
 " Be smart when using tabs
 set smarttab
 
-" 1 tab == 2 spaces
-set shiftwidth=2
-set tabstop=2
-set softtabstop=2
+" 1 tab == 4 spaces
+set shiftwidth=4
+set tabstop=4
+set softtabstop=4
 
-set ai "Auto indent
-set si "Smart indent
+set smartindent
+set autoindent 
 set wrap "Wrap lines
+
+" load indent file for the current filetype
+filetype indent on
 
 " -------------------------------------------------
 " Keyboard mappings
