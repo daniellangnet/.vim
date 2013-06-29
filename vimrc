@@ -7,8 +7,8 @@ set nocompatible
 " Install pathogen
 execute pathogen#infect()
 
-" change mapleader from \ to ,
-let mapleader=","
+filetype plugin on
+let mapleader="," " change mapleader from \ to ,
 
 " -------------------------------------------------
 " Visual elements
