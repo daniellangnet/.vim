@@ -64,3 +64,7 @@ filetype indent on
 " -------------------------------------------------
 
 map <F2>  :NERDTreeToggle<CR>
+
+" insert blank line without enterting insert
+map <Enter> o<ESC>
+map <S-Enter> O<ESC>
