@@ -54,7 +54,7 @@ set softtabstop=4
 
 set smartindent
 set autoindent 
-set wrap "Wrap lines
+set nowrap " do not wrap lines!
 
 " load indent file for the current filetype
 filetype indent on
