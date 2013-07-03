@@ -60,10 +60,25 @@ set wrap "Wrap lines
 filetype indent on
 
 " -------------------------------------------------
-" Keyboard mappings
+" General keyboard mappings
 " -------------------------------------------------
 
 map <F2>  :NERDTreeToggle<CR>
 
 " insert blank line without enterting insert
 map <C-o> o<ESC>
+
+
+" -------------------------------------------------
+" Split windows
+" -------------------------------------------------
+
+" Make it easier to navigate between split windows
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+" Opne new split panes to right and bottom which is more natural
+set splitbelow
+set splitright
