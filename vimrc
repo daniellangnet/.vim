@@ -63,7 +63,11 @@ filetype indent on
 " General keyboard mappings
 " -------------------------------------------------
 
+" toogle open/close NERDTree window
 map <F2>  :NERDTreeToggle<CR>
+
+" jump to current buffer (=open file) in NERDTree window
+map <leader>r :NERDTreeFind<cr>
 
 " insert blank line without enterting insert
 map <C-o> o<ESC>
