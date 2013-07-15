@@ -69,8 +69,11 @@ map <F2>  :NERDTreeToggle<CR>
 " jump to current buffer (=open file) in NERDTree window
 map <leader>r :NERDTreeFind<cr>
 
-" insert blank line without enterting insert
+" insert blank line without entering insert
 map <C-o> o<ESC>
+
+" open CtrlP in buffer files mode
+nmap ; :CtrlPBuffer<CR>
 
 
 " -------------------------------------------------
