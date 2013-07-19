@@ -28,6 +28,9 @@ set ignorecase " Ingore case when using a search pattern
 set smartcase " Override 'ignorecase' when pattern has upper case character
 set showmatch " Show matching brackets when text indicator is over them
 
+set hlsearch " Enable highlighting of matches
+nnoremap <esc> :noh<return><esc> " Clear highlighting by hitting escape
+
 " -------------------------------------------------
 " Backup and temp files
 " -------------------------------------------------
@@ -62,6 +65,8 @@ filetype indent on
 " -------------------------------------------------
 " General keyboard mappings
 " -------------------------------------------------
+
+imap jk <Esc>
 
 " toogle open/close NERDTree window
 map <F2>  :NERDTreeToggle<CR>
