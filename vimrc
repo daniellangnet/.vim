@@ -28,8 +28,8 @@ set ignorecase " Ingore case when using a search pattern
 set smartcase " Override 'ignorecase' when pattern has upper case character
 set showmatch " Show matching brackets when text indicator is over them
 
-set hlsearch " Enable highlighting of matches
-nnoremap <esc> :noh<return><esc> " Clear highlighting by hitting escape
+" toggle search highlighting
+map <leader>l :set hlsearch!<CR>
 
 " -------------------------------------------------
 " Backup and temp files
