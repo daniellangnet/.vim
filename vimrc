@@ -8,7 +8,11 @@ set nocompatible
 execute pathogen#infect()
 
 filetype plugin on
+filetype indent on
 let mapleader="," " change mapleader from \ to ,
+
+" hide buffers instead of closing them when opening other files for editing
+set hidden
 
 " -------------------------------------------------
 " Visual elements
@@ -58,9 +62,6 @@ set softtabstop=4
 set smartindent
 set autoindent 
 set nowrap " do not wrap lines!
-
-" load indent file for the current filetype
-filetype indent on
 
 " -------------------------------------------------
 " General keyboard mappings
