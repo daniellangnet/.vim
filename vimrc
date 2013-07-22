@@ -100,3 +100,10 @@ set splitright
 " Make inserting blocks of code more comfortable
 " -------------------------------------------------
 inoremap {<cr> {<CR><CR>}<Esc>-cc
+
+" -------------------------------------------------
+" delimitMate customizations
+" -------------------------------------------------
+
+" Don't match < characters because that conflicts with xmledit
+let delimitMate_matchpairs = "(:),[:],{:}"
