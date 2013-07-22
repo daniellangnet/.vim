@@ -95,3 +95,8 @@ nnoremap <C-H> <C-W><C-H>
 " Opne new split panes to right and bottom which is more natural
 set splitbelow
 set splitright
+
+" -------------------------------------------------
+" Make inserting blocks of code more comfortable
+" -------------------------------------------------
+inoremap {<cr> {<CR><CR>}<Esc>-cc
