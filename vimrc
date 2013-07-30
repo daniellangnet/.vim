@@ -107,3 +107,10 @@ inoremap {<cr> {<CR><CR>}<Esc>-cc
 
 " Don't match < characters because that conflicts with xmledit
 let delimitMate_matchpairs = "(:),[:],{:}"
+
+" -------------------------------------------------
+" EasyMotion customizations
+" -------------------------------------------------
+
+" Remap trigger to just one leader key (instead of two)
+let g:EasyMotion_leader_key = '<Leader>'
