@@ -69,12 +69,6 @@ set nowrap " do not wrap lines!
 
 imap jk <Esc>
 
-" toogle open/close NERDTree window
-map <F2>  :NERDTreeToggle<CR>
-
-" jump to current buffer (=open file) in NERDTree window
-map <leader>r :NERDTreeFind<cr>
-
 " insert blank line without entering insert
 map <C-o> o<ESC>
 
@@ -114,3 +108,16 @@ let delimitMate_matchpairs = "(:),[:],{:}"
 
 " Remap trigger to just one leader key (instead of two)
 let g:EasyMotion_leader_key = '<Leader>'
+
+" -------------------------------------------------
+" EasyMotion customizations
+" -------------------------------------------------
+
+" toogle open/close NERDTree window
+map <F2>  :NERDTreeToggle<CR>
+
+" jump to current buffer (=open file) in NERDTree window
+map <leader>r :NERDTreeFind<cr>
+
+" Show hidden files by default in NERDTree
+let NERDTreeShowHidden=1
