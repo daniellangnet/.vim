@@ -72,9 +72,12 @@ imap jk <Esc>
 " insert blank line without entering insert
 map <C-o> o<ESC>
 
-" open CtrlP in buffer files mode
+" open CtrlP in buffer files mode, 
+" very handy for switching between open buffers
 nmap ; :CtrlPBuffer<CR>
 
+" useful for expanding html tags 'correctly'
+inoremap <leader><CR> <CR><C-o>==<C-o>O
 
 " -------------------------------------------------
 " Split windows
@@ -145,7 +148,3 @@ function! g:UltiSnips_Complete()
 endfunction
 
 au BufEnter * exec "inoremap <silent> " . g:UltiSnipsExpandTrigger . " <C-R>=g:UltiSnips_Complete()<cr>"
-
-
-
-inoremap <leader><CR> <CR><C-o>==<C-o>O
