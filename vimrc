@@ -145,3 +145,7 @@ function! g:UltiSnips_Complete()
 endfunction
 
 au BufEnter * exec "inoremap <silent> " . g:UltiSnipsExpandTrigger . " <C-R>=g:UltiSnips_Complete()<cr>"
+
+
+
+inoremap <leader><CR> <CR><C-o>==<C-o>O
