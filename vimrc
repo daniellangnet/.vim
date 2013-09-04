@@ -76,9 +76,6 @@ map <C-o> o<ESC>
 " very handy for switching between open buffers
 nmap ; :CtrlPBuffer<CR>
 
-" useful for expanding html tags 'correctly'
-inoremap <leader><CR> <CR><C-o>==<C-o>O
-
 " -------------------------------------------------
 " Split windows
 " -------------------------------------------------
