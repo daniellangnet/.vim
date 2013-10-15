@@ -18,11 +18,16 @@ set hidden
 " Visual elements
 " -------------------------------------------------
 
-set cursorline " hight current line
 set number " line numbers
 syntax on
 set background=dark
 colorscheme solarized
+
+" highlight current line
+set cursorline
+" remove ugly default yellow line number at cursor line
+" it is important that this is _after_ setting the colorscheme!
+hi clear CursorLineNR
 
 " -------------------------------------------------
 " searching and patters
