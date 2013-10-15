@@ -18,6 +18,7 @@ set hidden
 " Visual elements
 " -------------------------------------------------
 
+set cursorline " hight current line
 set number " line numbers
 syntax on
 set background=dark
