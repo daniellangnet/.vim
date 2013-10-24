@@ -105,6 +105,12 @@ let delimitMate_matchpairs = "(:),[:],{:}"
 
 " fix cursor position when expanding code
 let delimitMate_expand_cr = 1
+"
+" -------------------------------------------------
+" CtrP and others use wildignore
+" -------------------------------------------------
+
+set wildignore=**/target/*
 
 " -------------------------------------------------
 " EasyMotion customizations
