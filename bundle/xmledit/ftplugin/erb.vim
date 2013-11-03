@@ -1,1 +1,0 @@
-/Users/daniel/.vim/bundle/xmledit/ftplugin/xml.vim
