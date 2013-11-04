@@ -14,6 +14,9 @@ let mapleader="," " change mapleader from \ to ,
 " hide buffers instead of closing them when opening other files for editing
 set hidden
 
+" default to source folder
+cd ~/source
+
 " -------------------------------------------------
 " Visual elements
 " -------------------------------------------------
